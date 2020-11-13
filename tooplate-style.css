@@ -89,7 +89,7 @@ p {
   font-weight: normal;
   letter-spacing: 0.5px;
   padding: 0 25px;
-  background:blue;
+  background:#031946;
   border-radius: 1px;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -262,7 +262,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar {
   margin-bottom: 0;
-  background-color:blue;
+  background-color:#031946;
   padding: 20px 0;
 }
 
@@ -332,7 +332,7 @@ a:hover, a:active, a:focus {
     background: 0 0; 
   }
   .custom-navbar.top-nav-collapse {
-    background:blue;
+    background:#031946;
     padding: 15px 0;
   }
 }
@@ -357,7 +357,7 @@ a:hover, a:active, a:focus {
 }
 
 #home h1 {
-  color: blueviolet;
+  color: #031946;
   font-size: 6em;
   line-height: 1.2em;
 }
