@@ -1,10 +1,4 @@
-/*
 
-Template 2099 Scenic
-
-http://www.tooplate.com/view/2099-scenic
-
-*/
 
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
@@ -54,7 +48,7 @@ h4 {
 }
 
 p {
-  color: #757575;
+  color: rgb(113, 119, 56);
   font-size: 16px;
   font-weight: 300;
   line-height: 29px;
@@ -399,6 +393,8 @@ a:hover, a:active, a:focus {
 #about {
   padding-top: 200px;
   padding-bottom: 150px;
+  
+    
 }
 
 .about-info h3 {
@@ -416,15 +412,9 @@ a:hover, a:active, a:focus {
 .project-item {
   display: flex;
 }
-
-
-
-.project-info {
-  
+.project-info{
+  color: black;
 }
-
-
-
 
 /*---------------------------------------
    TEAM             
@@ -434,6 +424,7 @@ a:hover, a:active, a:focus {
   display: block;
   width: 100%;
   margin-bottom: 22px;
+  justify-content: center;
 }
 
 #team h3,
@@ -446,6 +437,8 @@ a:hover, a:active, a:focus {
   position: relative;
   margin-top: 34px;
   margin-bottom: 16px;
+  box-align: center;
+  display: flex;
 }
 
 .team-item img {
@@ -546,14 +539,16 @@ a:hover, a:active, a:focus {
 footer {
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: #031946;
+  color: white;
 }
 
 footer h4 {
   padding-top: 12px;
 }
 
-footer a {
-  color: #757575;
+footer a{
+  color: white;
 }
 
 footer .copyright-text {
