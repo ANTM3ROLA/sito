@@ -48,11 +48,15 @@ h4 {
 }
 
 p {
-  color: rgb(113, 119, 56);
+  color: white;
   font-size: 16px;
   font-weight: 300;
   line-height: 29px;
   letter-spacing: 0.5px;
+}
+
+#testo{
+  color: black;
 }
 
 
@@ -411,9 +415,14 @@ a:hover, a:active, a:focus {
 
 .project-item {
   display: flex;
+  flex-direction: column;
 }
 .project-info{
   color: black;
+}
+#row{
+  display: flex;
+  flex-direction: column;
 }
 
 /*---------------------------------------
