@@ -57,6 +57,7 @@ p {
 
 #testo{
   color: black;
+  text-decoration: none !important;
 }
 marquee{
   color: white;
@@ -421,6 +422,7 @@ a:hover, a:active, a:focus {
 }
 .project-info{
   color: black;
+  
 }
 #row{
   display: flex;
@@ -435,6 +437,7 @@ a:hover, a:active, a:focus {
   display: block;
   width: 100%;
   margin-bottom: 22px;
+  margin-left: 280px;
   justify-content: center;
 }
 
@@ -448,9 +451,12 @@ a:hover, a:active, a:focus {
   position: relative;
   margin-top: 34px;
   margin-bottom: 16px;
+  
+  
   box-align: center;
   display: flex;
 }
+
 
 .team-item img {
   -webkit-transition: all ease-in-out 0.4s;
