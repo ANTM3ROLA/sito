@@ -160,7 +160,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #000000;
+  color: rgb(200,200,200);
   outline: none;
 }
 
