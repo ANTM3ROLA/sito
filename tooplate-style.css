@@ -188,6 +188,8 @@ a:hover, a:active, a:focus {
 .section-title {
   position: relative;
   padding-bottom: 22px;
+  background-color: #031946;
+  color: white;
 }
 
 .parallax-section {
