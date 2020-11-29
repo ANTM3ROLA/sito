@@ -439,6 +439,8 @@ a:hover, a:active, a:focus {
   width: 100%;
   margin-bottom: 22px;
   margin-left: 280px;
+  margin-right: 280px ;
+  
   justify-content: center;
 }
 
@@ -625,6 +627,9 @@ footer .copyright-text {
     font-size: 30px;
     line-height: inherit;
   }
+  #team .item {
+    margin-left: 0px;
+  }
 
   #home {
     padding-top: 0em;
@@ -683,6 +688,9 @@ footer .copyright-text {
 
   #home {
     height: 100vh;
+  }
+  #team .item {
+    margin-left: 0px;
   }
 
   .about-info h3 {
